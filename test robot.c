@@ -1,6 +1,5 @@
 task main()
-
-
+{
 	while(1==1)
 	{
 		if(vexRT(Ch2)==1)
@@ -46,5 +45,6 @@ task main()
 			motor(port3)=0;
 			motor(port4)=0;
 			motor(port5)=0;
-
+		}
+	}
 }
