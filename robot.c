@@ -28,6 +28,8 @@ task main()
 			motor(port4)=0;
 			motor(port5)=0;
 		}
+		
+		//! arm
 		if(vexRT[Btn6U] == 1)
 		{
 			motor(port6) = 127; // add correct port for arm
