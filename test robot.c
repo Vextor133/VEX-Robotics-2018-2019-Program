@@ -1,5 +1,6 @@
 //TODO: 1) add when button release throw ball
 //TODO: 2) find what they fully want...
+//! I am 90% positive that half of the ports have to be removed
 
 task main()
 {
@@ -13,7 +14,7 @@ task main()
 			motor(port5)=127;
 
 		}
-		else if(vexRT(Ch2) == 1) //* for channel 3
+		else if(vexRT(Ch3) == 1) //* for channel 3
 		{
 			motor(port2)=127;
 			motor(port3)=127;
@@ -34,10 +35,8 @@ task main()
 		}
 		else
 		{
-			motor(port2)=0;
-			motor(port3)=0;
-			motor(port4)=0;
-			motor(port5)=0;
+			motor(port6) = 0;
+			motor(port7) = 0;
 		}
 	}
 }
