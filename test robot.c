@@ -1,3 +1,6 @@
+//TODO: 1) add when button release throw ball
+//TODO 2) find what they want...
+
 task main()
 {
 	while(1==1)
